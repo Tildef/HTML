@@ -1,0 +1,43 @@
+#Måndag {
+	color: purple;
+}
+
+#Tisdag {
+	color: red;
+}
+
+#Onsdag {
+	color: yellow;
+}
+
+#Torsdag {
+	color: orange;
+}
+
+#Fredag {
+	color: green;
+}
+
+#Lördag {
+	color: blue;
+}
+
+#Söndag {
+	color: pink;
+}
+
+.Vinter {
+	color:lightblue;
+}
+
+.Vår {
+	color:lightgreen;
+}
+
+.Sommar {
+	color:blue;
+}
+
+.Höst {
+	color:orange;
+}

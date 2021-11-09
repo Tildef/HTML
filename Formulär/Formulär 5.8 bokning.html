@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+	<html lang="sv">
+		<head>
+			<title>Formulär 5.8</title>
+			<meta charset="utf-8">
+		</head>
+		
+
+		<body>
+			<h1><u>Bokning - Restaurang</u></h1>
+
+			<form method="POST">
+
+				<b>Datum?</b><br><br>
+				<input type="checkbox" name="Måndag"> Måndag<br>
+				<input type="checkbox" name="Tisdag"> Tisdag<br>
+				<input type="checkbox" name="Onsdag"> Onsdag<br>
+				<input type="checkbox" name="Torsdag"> Torsdag<br>
+				<input type="checkbox" name="Fredag"> Fredag<br>
+				<input type="checkbox" name="Lördag"> Lördag<br><br>
+
+
+				<b>Välj tid:</b><br>
+				<select name="dropdown"  size="1">
+					<option>16:00 - 17:30</option>
+					<option>17:30 - 19:00</option>		  
+					<option>19:00 - 20:30</option>
+					<option>20:30 - 22:00</option>
+					<option>22:00 - 23:00</option>
+				</select><br><br>
+
+
+				<b>Välj antal personer</b><br>
+				<input type="number"><br><br>
+
+
+				<b>Allergier?</b><br>
+					<input type="checkbox" name="Laktos">Laktos<br>
+					<input type="checkbox" name="Baljväxter">Baljväxter<br>
+					<input type="checkbox" name="Fisk">Fisk<br>
+					<input type="checkbox" name="Frukt och Bär">Frukt och Bär<br>
+					<input type="checkbox" name="Fröer">Fröer<br>
+					<input type="checkbox" name="Gluten">Gluten<br>
+					<input type="checkbox" name="Grönsaker">Grönsaker<br>
+					<input type="checkbox" name="Jordnötter">Jordnötter<br>
+					<input type="checkbox" name="Mjölkproduter">Mjölkprodukter<br>
+					<input type="checkbox" name="Nötter">Nötter<br>
+					<input type="checkbox" name="Skaldjur">Skaldjur<br>
+					<input type="checkbox" name="Sojabönor">Sojabönor<br>
+					<input type="checkbox" name="Spannmål">Spannmål<br>
+					<input type="checkbox" name="Ägg">Ägg<br><br>
+
+
+					<b>Andra allergier? Vilka?</b><br>
+					<input type="text" name="Andra Allergier"><br><br>
+
+
+					<b>Flera av samma allergier?<br>Vilka allergier och hur många?</b><br><input type="text" name="Flera allergier"><br><br>
+
+
+					<h2><b><u>Meny:</u></b></h2>
+				
+						<h3>Förrätter</h3>
+						<ul>
+							<li>Vitlöks bröd</li>
+							<li>Pommes Frites</li>
+							<li>Grillade grönsaker</li>
+						</ul>
+
+
+						<h3>Kött</h3>
+						<ul>
+							<li>Oxfilé</li>
+							<li>Hamburgare</li>
+							<li>Entrecote</li>
+						</ul>
+
+
+						<h3>Fisk och Skaldjur</h3>
+						<ul>
+							<li>Jumboräkor</li>
+							<li>Rökt lax</li>
+							<li>Toast Skagen</li>
+						</ul>
+
+
+						<h3>Sallader</h3>
+						<ul>
+							<li>César sallad</li>
+							<li>Kyckling sallad</li>
+							<li>Pasta sallad</li>
+						</ul>
+
+
+						<h3>Vegetariskt</h3>
+						<ul>
+							<li>Falafel</li>
+							<li>Hummus</li>
+							<li>Vårrullar</li>
+							<li>Broccolisoppa</li>
+						</ul>
+
+
+						<h3>Veganskt</h3>
+						<ul>
+							<li>Grönkålspasta</li>
+							<li>Svampstroganoff</li>
+							<li>Veganska köttbullar</li>
+						</ul>
+
+
+						<h3>Barn meny</h3>
+						<ul>
+							<li>Kyckling nuggets</li>
+							<li>Kycklingspätt</li>
+							<li>Kyckling och ris</li>
+						</ul><br>
+
+
+					Några specialdieter?<input type="text" name="Några specialdieter?"><br><br><br>
+
+					<h4>Hur många vill äta av vilka rätter</h4>
+					<input type="checkbox" name="Vitlöks bröd">Vitlöks bröd..........<input type="number"><br>
+					<input type="checkbox" name="Pommes Frites">Pommes Frites..........<input type="number"><br> 
+					<input type="checkbox" name="Grillade grönsaker">Grillade grönsaker..........<input type="number"><br> 
+				
+					<input type="checkbox" name="Oxfilé">Oxfilé..........<input type="number"><br>
+					<input type="checkbox" name="Hamburgare">Hamburgare..........<input type="numer"><br>
+					<input type="checkbox" name="Entrecote">Entrecote..........<input type="number"><br>
+
+					<input type="checkbox" name="Jumboräkor">Jumboräkor..........<input type="number"><br>
+					<input type="checkbox" name="Rökt lax">Rökt lax..........<input type="number"><br>
+					<input type="checkbox" name="Toast Skagen">Toast Skagen..........<input type="number"><br>
+
+					<input type="checkbox" name="César sallad">César sallad..........<input type="number"><br>
+					<input type="checkbox" name="Kyckling sallad">Kyckling sallad..........<input type="number"><br>
+					<input type="checkbox" name="Pasta sallad">Pasta sallad..........<input type="number"><br>
+
+					<input type="checkbox" name="Falafel">Falafel..........<input type="number"><br>
+					<input type="checkbox" name="Hummus">Hummus..........<input type="number"><br>
+					<input type="checkbox" name="Vårrullar">Vårrullar..........<input type="number"><br>
+					<input type="checkbox" name="Broccolisoppa">Broccolisoppa..........<input type="number"><br>
+
+					<input type="checkbox" name="Grönkålspasta">Grönkålspasta..........<input type="number"><br>
+					<input type="checkbox" name="Svampstroganoff">Svampstroganoff..........<input type="number"><br>
+					<input type="checkbox" name="Veganska köttbullar">Veganska köttbullar..........<input type="number"><br>
+
+					<input type="checkbox" name="Kyckling nuggets">Kyckling nuggets..........<input type="number"><br>
+					<input type="checkbox" name="Kycklingspätt">Kycklingspätt..........<input type="number"><br>
+					<input type="checkbox" name="Kyckling och ris">Kyckling och ris..........<input type="number"><br><br>
+				
+
+					<h2><u>Bokning</u></h2>
+
+				<b>Namn:</b> <input type="text" name="namn"><br><br>
+				<b>Mobil:</b> <input type="text" name="Mobil"><br><br>
+				<b>E-post:</b> <input type="text" name="E-post"><br><br>
+				<b>Kommentar:</b> <input type="text" name="Kommentar"><br><br>
+
+				<input type="submit" name="Skicka" value="Skicka!"><br>
+				<input type="reset" name="Skicka-inte" value="Skicka-INTE!">
+
+			</form>
+		</body>
+	</html>

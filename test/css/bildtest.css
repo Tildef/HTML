@@ -1,0 +1,17 @@
+.item{
+  width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  float:left;
+}
+
+#index-gallery{
+  border-radius: 8px;
+	width: 20%;
+	right: 4%;
+	top: 27%;
+	position: absolute;
+}

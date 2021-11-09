@@ -1,0 +1,51 @@
+html {
+	font: Veranda;
+}
+
+h1 {
+	color: darkgrey;
+	font: VERSALER 28px;
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+h2 {
+	color: gray;
+	font: Times New Roman 22px;
+	text-align: center;
+	text-decoration: double underline;
+}
+
+h3 {
+	color: lightgrey;
+	font: Times New Roman 16px;
+	text-decoration: underline;
+}
+
+p {
+	color: navy blue;
+	font:Arial 11px;
+	justify-content: 2em; 	
+}
+
+em {
+	font: cursive bold;
+}
+
+strong {
+	font: small-caps weight 900;
+}
+
+i{
+	font: cursive weight 200;
+}
+
+b {
+	color: pink;
+	font: bold;
+}
+
+mark {
+	background-color: plum;
+}

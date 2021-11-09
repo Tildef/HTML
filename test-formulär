@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>test-formulär</title>
+			<meta charset="utf-8">
+		</head>
+		
+
+		<body>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$("#fourthselection").change(function(){      
+			var showOrHide =$(this).is(':checked');         
+				$("#togg").toggle(showOrHide);      
+		});
+	});
+</script>
+
+<form action="#" method="POST"> <input name="orgid" type="hidden" value="000001" /> 
+<input name="retURL" type="hidden" value="#" />
+<label for="company">* Company</label><br />  
+<input id="company" required="required" maxlength="80" name="company" size="80" type="text" /><br />
+<br />
+<label for="name">* Name</label><br />
+<input id="name" required="required" maxlength="80" name="name" size="80" type="text" /><br />
+<br />
+<label for="email">Email</label>  <br />
+<input id="email" maxlength="80" name="email" size="80" type="text" /><br />
+<br />
+<label for="phone">Phone</label><br />
+<input id="phone" maxlength="40" name="phone" size="20" type="text" /><br />
+<br />
+<br />
+Make selection?<br />
+<input id="firstselection" name="firstselection" type="checkbox" value="1" /> First selection <br />
+<input id="secondselection" name="secondselection" type="checkbox" value="1" /> Second selection<br />
+<input id="thirdselection" name="thirdselection" type="checkbox" value="1" /> Third selection <br />
+<input id="fourthselection" name="fourthselection" type="checkbox" value="1" /> Fourth selection <br />
+<span id="togg" style="display:none">
+If fourth selection, please make a selection?  
+<select  id="fourthchoices" name="fourthchoices" title="Fourth selection choices" required="required">
+<option value="">--Please Select One--</option>
+<option value="Choice A">Choice A</option>
+<option value="Choice B">Choice B</option>
+<option value="Choice C">Choice C</option>
+<option value="Choice D">Choice D</option>
+<option value="Choice E">Choice E</option>
+<option value="Choice F">Choice F</option>
+<option value="Choice G">Choice G</option>
+<option value="Choice H">Choice H</option>
+</select><br>
+</span>
+<input id="selection" name="selection" type="checkbox" value="1" /> Fifth selection<br />
+<input id="sixthselection" name="sixthselection" type="checkbox" value="1" /> Sixth selection<br />
+<input id="otherselection" name="otherselection" type="checkbox" value="1" /> Other 
+<br />
+<br />
+<label for="description">Description</label> <br />
+(if Fourth selection, please include additional information)<br />
+<textarea name="description" cols="80" rows="5"></textarea><br />
+<br />
+<br />
+<input name="submit" type="submit" /> </form>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

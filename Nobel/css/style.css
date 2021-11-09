@@ -1,0 +1,133 @@
+			* {
+				margin: 0;
+				padding: 0;
+				font-family: Century Gothic;
+			}
+
+			body {
+				background-image: url(../Bilder/Nobel.jpg);
+				background-size: cover;
+			}
+
+			header {
+				text-align: center;
+				font-family: Century Gothic;
+				padding: 20px;
+				color: black;
+				background-image: url(../Bilder/bakrund.jpg);
+				background-size: cover;
+			}
+
+			nav {
+
+			}
+
+			ul {
+				margin: 0;
+				padding: 0;
+				width: 10%;
+				background-color: gold;
+				list-style-type: none;
+			}
+			
+			li a {
+				display: block;
+				color: black;
+				padding: 5% 3%;
+				text-decoration: underline;
+			}	
+
+			h3 {
+				color: white;
+				margin: 1% 1%;
+				width: 9%;
+				padding: 0;
+				margin: 0;
+			}
+
+			h4 {
+				color: black;
+			}
+
+			b {
+				text-decoration: underline;
+			}
+
+			p {
+				color: black;
+				background-image: url(../Bilder/guld_bakrund.jpg);
+				background-size: cover;
+				width: 50%;
+				top: 27%;
+				left: 18%;
+				position: absolute;
+				overflow: auto;
+				font-size: 18px;
+			}
+
+		#Nobel_logo {
+			border-radius: 8px;
+			width: 6%;
+			height: 10%;
+			top: 0;
+			left: 1%;
+			position: absolute;
+			margin: 0;
+		}
+
+		#Albert {
+			border-radius: 8px;
+			width: 20%;
+			right: 4%;
+			top: 27%;
+			position: absolute;
+		}
+
+		#Elinor {
+			border-radius: 8px;
+			width: 20%;
+			right: 4%;
+			top: 27%;
+			position: absolute;
+		}
+
+		#Alexander {
+			border-radius: 8px;
+			width: 20%;
+			right: 4%;
+			top: 27%;
+			position: absolute;
+		}
+
+		#Marie {
+			border-radius: 8px;
+			width: 20%;
+			right: 4%;
+			top: 27%;
+			position: absolute;
+		}
+
+
+		#Martin {
+			border-radius: 8px;
+			width: 20%;
+			right: 4%;
+			top: 27%;
+			position: absolute;
+		}
+
+		#Selma {
+			border-radius: 8px;
+			width: 20%;
+			right: 4%;
+			top: 27%;
+			position: absolute;		
+		}
+
+		#Alfred {
+			border-radius: 8px;
+			width: 20%;
+			right: 4%;
+			top: 27%;
+			position: absolute;
+		}
